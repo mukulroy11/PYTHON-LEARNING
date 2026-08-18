@@ -4,3 +4,6 @@ for letter in word:
     if letter == 'a':
         count += 1
         print(count) 
+
+for letter in 'banana':
+    print(letter)
