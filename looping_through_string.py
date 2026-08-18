@@ -5,6 +5,6 @@ while i < len(fruit):
     print(i, letter)
     i = i + 1
 
-# for loop
+# for loop is much more elegant and easier to read than a while loop
 for letter in fruit:
     print(letter)
