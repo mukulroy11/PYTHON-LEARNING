@@ -1,8 +1,8 @@
 fruit = 'banana'
 
-'n' in fruit
+print('n' in fruit)
 
-'m' in fruit
+print('m' in fruit)
 
 if 'a' in fruit :
     print('found')
