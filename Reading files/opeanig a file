@@ -1,0 +1,22 @@
+
+In Python, opening a file is the initial step to read from or write to a file on your computer.
+
+Purpose: Before reading or writing a file, you must tell Python which file you want to work with and what operations you intend to perform on it.
+
+The open() Function: Opening a file is performed using the built-in open() function in Python.
+
+File Handle: Calling open() returns a file handle—a variable used to perform operations (such as reading, writing, or closing) on the file.
+
+Analogy: It is similar to choosing File -> Open in a word processing program (like Microsoft Word) before you can start reading or editing the document.
+
+Syntax: handle = open(filename, mode)
+
+File Handle: Calling open() returns a handle that you use to manipulate and perform operations on the file.
+
+Filename: The filename parameter is passed as a string (e.g., 'm.txt').
+
+Mode (Optional): Specifies how you intend to use the file:
+
+'r': Read mode — used if you plan to read content from the file.
+
+'w': Write mode — used if you plan to write data to the file.
