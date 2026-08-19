@@ -4,3 +4,4 @@ print(fhand)
 
 p = 'Hello\nWorld\n'
 print(p)
+print(len(p))
