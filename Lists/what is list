@@ -1,0 +1,10 @@
+List Basics
+
+Collection Type: A list is a kind of collection that allows you to store multiple values in a single variable package (e.g., friends = ['Joseph', 'Glenn', 'Sally']).
+
+List Literals: Lists are surrounded by square brackets [...] and elements are separated by commas. Elements can be strings, integers, floats, or even other nested lists.
+
+Empty Lists: You can create an empty list using empty brackets: stuff = list() or stuff = [].
+
+string are immutable
+list are mutable
