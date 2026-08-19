@@ -18,3 +18,13 @@ for line in fhand:
     line = line.rstrip() # rstrip() is used to remove the extra whitespace or newline character from the end of the line
     if line.startswith('From:'):
         print(line)
+
+fname = input('Enter the file name: ')
+try:
+    fhand = open(fname)
+except:
+    print('File cannot be opened:', fname)
+    quit()
+
+for line in fhand:
+    print(line)
