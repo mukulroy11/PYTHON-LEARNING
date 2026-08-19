@@ -20,3 +20,15 @@ Mode (Optional): Specifies how you intend to use the file:
 'r': Read mode — used if you plan to read content from the file.
 
 'w': Write mode — used if you plan to write data to the file.
+
+Core Concepts of File Processing
+
+Text Files vs Binary Files: Text files are structured as sequences of lines ending with newline characters (\n), whereas binary files contain non-text raw bytes (such as images or executable files).
+
+File Handle: An object returned by the open() function that acts as a connection to the file on disk.
+
+File Processing Essentials
+
+File Handle as a Sequence: A file handle opened in read mode acts as an ordered sequence of strings, where each element corresponds to a single line in the file.
+
+Reading Line by Line: You can iterate directly over a file handle using a for loop to process one line at a time efficiently:
