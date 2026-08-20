@@ -1,0 +1,40 @@
+1. Sockets & TCP Connections(Built on top of IP)
+Sockets: A socket acts as a two-way communication endpoint (a "pipe") allowing a Python program to connect across a network to a web server.
+
+Assume IP(Internet protocol) might lose some data stores and retransmits data if it seems to be lost
+
+Ports: Uses standard network ports (e.g., Port 80 for HTTP, Port 443 for HTTPS).
+
+2. HTTP Protocol (HyperText Transfer Protocol)
+HTTP is the set of rules web browsers and programs use to request documents from a server over the internet.
+
+Sending an HTTP request requires encoding the command into bytes:
+
+3. Strings vs. Bytes (encode() & decode())
+Encoding (.encode()): Converts internal Python Unicode strings into a stream of UTF-8 byte arrays to transmit over the network.
+
+Decoding (.decode()): Converts incoming network byte streams back into readable Python text strings.
+
+4. Using urllib (Simplified Web Requests)
+Rather than manually creating sockets and HTTP headers, Python's urllib library treats web pages like local files:
+
+5. Web Scraping & Beautiful Soup
+Web Scraping: The practice of writing a program to simulate a web browser, fetch web pages, and extract data.
+
+BeautifulSoup: A Python library used to parse HTML markup and navigate/extract specific tags (like finding all <a> anchor tags or table values)
+
+Application Protocol
+Since TCP (and Python) gives us a reliable socket, what do we want to do with the socket? What problem do we want to solve?
+
+Application Protocols
+
+Mail
+
+World Wide Web
+
+HTTP - Hypertext Transfer Protocol
+The dominant Application Layer Protocol on the Internet
+Invented for the Web – to Retrieve HTML, Images, Documents, etc.
+Extended to be data in addition to documents - RSS, Web Services, etc. Basic Concept - Make a Connection - Request a document - Retrieve the Document - Close the Connection
+[http://en.wikipedia.org/wiki/HTTP]
+(http://en.wikipedia.org/wiki/HTTP)
