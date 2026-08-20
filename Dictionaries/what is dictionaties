@@ -1,0 +1,25 @@
+A bag of values, each with is own label
+
+ex:- key: value pair
+
+Dictionary Fundamentals
+
+Key-Value Pairs: A dictionary is a powerful built-in collection that stores data in key-value pairs instead of numeric positions.
+
+Database-Like Operations: Dictionaries allow fast, direct lookup of values based on their associated keys (known as associative arrays in Perl/PHP or maps/hashmaps in Java).
+
+Creating Dictionaries: Defined using curly braces {} or the built-in dict() constructor:
+
+A dictionary is a built-in Python data structure that stores collections of key-value pairs (also known as an associative array or map) [
+13:35:27
+Opens in a new window].
+
+Unlike lists that use numeric positions/indices, dictionaries allow you to index data using custom lookup keys [
+13:35:27
+Opens in a new window].
+
+Keys are unique, while values can be duplicated.
+
+Creating and Accessing Elements:
+
+You can create a dictionary using curly braces {} or the built-in dict() constructor:
